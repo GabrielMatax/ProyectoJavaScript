@@ -1,0 +1,11 @@
+[
+    {"nombre": "Razer DeathAdder", "precio": 500, "id": "P1", "unidad": 0, "imagen": "../IMAGEN/productos/producto1.png"},
+    {"nombre": "Onikuma CW905", "precio": 1000, "id": "P2", "unidad": 0, "imagen": "../IMAGEN/productos/producto2.png"},
+    {"nombre": "Redragon King", "precio": 2000, "id": "P3", "unidad": 0, "imagen": "../IMAGEN/productos/producto3.png"},
+    {"nombre": "Centrophorus v2", "precio": 2500, "id": "P4", "unidad": 0, "imagen": "../IMAGEN/productos/producto4.png"},
+    {"nombre": "Storm Elite M988", "precio": 750, "id": "P5", "unidad": 0, "imagen": "../IMAGEN/productos/producto5.png"},
+    {"nombre": "HP M260 Black", "precio": 3000, "id": "P6", "unidad": 0, "imagen": "../IMAGEN/productos/producto6.png"},
+    {"nombre": "HP M160 RGB", "precio": 3250, "id": "P7", "unidad": 0, "imagen": "../IMAGEN/productos/producto7.png"},
+    {"nombre": "Soul XM550", "precio": 4300, "id": "P8", "unidad": 0, "imagen": "../IMAGEN/productos/producto8.png"},
+    {"nombre": "G903", "precio": 5000, "id": "P9", "unidad": 0, "imagen": "../IMAGEN/productos/producto9.png"}
+]

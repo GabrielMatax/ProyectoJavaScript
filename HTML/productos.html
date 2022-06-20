@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=IBM+Plex+Sans+Thai+Looped:wght@300&family=Teko:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+    <script src="https://kit.fontawesome.com/98b9b80e08.js" crossorigin="anonymous"></script>
+    <script src = " https://unpkg.com/sweetalert/dist/sweetalert.min.js " defer></script> 
+    <script src="../JAVASCRIPT/productos.js" defer></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Click World</title>
+</head>
+
+<body class="body-prodcutos">
+
+    <nav class="navegador">
+        <ul>
+            <li> <a href="../index.html"><i class="fa-solid fa-house"></i> INICIO</a> </li>
+            <li> <a href="productos.html">PRODUCTOS</a> </li>
+         </ul>
+    </nav> 
+
+    <header>
+        <section>
+            <ul class="filtros">
+                <li class="filtros__lista"> <input class="form-check-input" type="checkbox">  MOUSES</li>
+                <li class="filtros__lista"> <input class="form-check-input" type="checkbox">  ******</li>
+                <li class="filtros__lista"> <input class="form-check-input" type="checkbox">  ******</li>
+                <li class="filtros__lista"> <input class="form-check-input" type="checkbox">  ******</li>
+            </ul>
+        </section>
+    </header>
+
+    <main class="main-productos">
+        <section class="productos">
+            <div class="producto">
+            </div>
+            <div class="carrito">
+                <div id="carrito" class="carrito__contenedor carrito__contenedor--ocultar">
+                    <img src="../IMAGEN/mercadopago.png" alt="">
+                    <div class="carrito__btn">
+                        <i class="fi fi-br-shopping-cart"></i>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Producto</th>
+                                <th>Cantidad</th>
+                                <th>Precio</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                            </tr>
+                        </tfoot>
+                    </table>
+                    <div class="btns">
+                        <button class="btn btn--vaciar">Vaciar</button>
+                        <button class="btn btn--comprar">Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer"> 
+        <ul class="footer_subtitulo">
+            <li class="footer_help">Acerca de</li>
+            <li>2022 Click World. Reservados todos los derechos</li>
+            <li class="footer_help">Contacto</li> 
+        </ul>
+        <div class="footer_div">
+            <div class="iconos_redes">
+                <a class="footer_links" href="https://www.instagram.com/"><i class="fa-brands fa-instagram-square"></i></a>
+                <a class="footer_links" href="https://twitter.com/"><i class="fa-brands fa-twitter-square"></i></a>
+            </div>
+            <div>
+                <div class="notificaciones">
+                    <input class="form-control form-control-md" type="email" placeholder="E-mail">
+                    <input class="btn btn-primary" type="submit" value="SUSCRIBIR">
+                </div>  
+            </div>
+            <div class="iconos_redes">
+                <a class="footer_links" href="https://www.facebook.com/"><i class="fa-brands fa-facebook-square"></i></a>
+                <a class="footer_links" href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp-square"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
